@@ -16,6 +16,23 @@
       </plugin>
     </plugins>
   </build>
+  <dependencies>
+  	<dependency>
+	    <groupId>com.jfinal</groupId>
+	    <artifactId>jfinal</artifactId>
+	    <version>2.2</version>
+	</dependency>
+    <dependency>
+	    <groupId>com.jfinal</groupId>
+	    <artifactId>jfinal-ext</artifactId>
+	    <version>3.1.0</version>
+	</dependency>
+	<dependency>
+	    <groupId>com.jfinal</groupId>
+	    <artifactId>jfinal-weixin</artifactId>
+	    <version>1.7</version>
+	</dependency>
+  </dependencies>
   <modules>
   	<module>find-common</module>
   	<module>find-wechat-interface</module>
